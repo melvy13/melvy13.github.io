@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #F0F1C7;
+  background: linear-gradient(90deg,
+    rgba(240, 241, 199, 1) 0%,
+    rgba(174, 205, 199, 1) 20%,
+    rgba(111, 156, 151, 1) 40%,
+    rgba(66, 138, 145, 1) 60%,
+    rgba(45, 98, 106, 1) 80%
+  );
+
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.content {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+hr {
+  width: 50%;
+  border: 1px solid #000;
+  opacity: 0.2;
+  margin: 20px auto;
+}
